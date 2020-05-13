@@ -61,6 +61,7 @@ model.fit_generator(
     validation_data=test_set, 
     validation_steps=len(test_set), 
     epochs=25
+  #add options for fitting according to you
     )
 
 #Accuracy around 92%
