@@ -68,6 +68,8 @@ model.fit_generator(
 
 
 model.save('menwomenmodel.h5')
+
+# load model
 from keras.models import load_model
 m = load_model('menwomenmodel.h5')
 from keras.preprocessing import image
